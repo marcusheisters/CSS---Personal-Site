@@ -28,7 +28,6 @@ h3 {
 .middle-container {}
 
 .bottom-container {
-  height: 0;
 }
 
 .top-cloud {
@@ -41,4 +40,12 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.skills-img {
+  height: 200px;
 }
