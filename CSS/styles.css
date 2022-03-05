@@ -31,14 +31,15 @@ a {
 
 /***********************Class styles************************/
 .top-container {
-  background-color: #F0F0F0;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {}
-
 .bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 50px;
 }
 
 .top-cloud {
@@ -61,6 +62,56 @@ a {
   text-decoration: underline;
 }
 
-.skills-img {
-  height: 300px;
+.skills-java {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-database {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:  #30e3cb;
+  background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link {
+  margin: 20px;
 }
